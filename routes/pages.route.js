@@ -10,4 +10,8 @@ router.route("/login").get((req, res) => {
     res.sendFile(path.resolve() + "/login.html");
 });
 
-export default router
+router.route('/css/index.css').get((req, res) => {
+    res.sendFile(path.resolve() + "/css/index.css");
+});
+
+export default router;
