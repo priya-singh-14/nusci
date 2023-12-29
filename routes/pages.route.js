@@ -10,7 +10,7 @@ router.route("/login").get((req, res) => {
     res.sendFile(path.resolve() + "/login.html");
 });
 
-router.route('/css/index.css').get((req, res) => {
+router.route("/css/index.css").get((req, res) => {
     res.sendFile(path.resolve() + "/css/index.css");
 });
 
