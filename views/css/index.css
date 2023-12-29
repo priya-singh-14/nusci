@@ -1,6 +1,6 @@
 body {
-    background-color: #000000;
-    color: #eeeeee;
+    background-color: #000000; 
+    color: #eeeeee; 
     font-family: 'Trebuchet MS', sans-serif;
 }
 
@@ -18,7 +18,7 @@ body {
     transform: translate(-50%);
 }
 
-.profile-block {
+.profile-block{
     padding: 5px 20px 20px 20px;
     text-align: center;
     background-color: #18224f;
